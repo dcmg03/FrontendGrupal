@@ -1,9 +1,0 @@
-/* globals.css */
-@import 'primereact/resources/themes/lara-light-indigo/theme.css'; /* Cambia el tema si prefieres */
-@import 'primereact/resources/primereact.min.css';
-@import 'primeicons/primeicons.css';
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
