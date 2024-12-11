@@ -9,7 +9,7 @@ const Salas = () => {
 
     useEffect(() => {
         // Simulación de API
-        fetch('/api/salas')
+        fetch('http://localhost:8080/api/salas')
             .then((res) => res.json())
             .then((data) => setSalas(data));
     }, []);
