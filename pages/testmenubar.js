@@ -1,7 +1,7 @@
 import React from 'react';
 import { Menubar } from 'primereact/menubar';
 
-const Layout = ({ children }) => {
+const TestMenubar = () => {
     const items = [
         { label: 'Inicio', icon: 'pi pi-fw pi-home', url: '/' },
         { label: 'Salas', icon: 'pi pi-fw pi-table', url: '/salas' },
@@ -12,9 +12,8 @@ const Layout = ({ children }) => {
     return (
         <div>
             <Menubar model={items} />
-            <main className="p-m-3">{children}</main>
         </div>
     );
 };
 
-export default Layout;
+export default TestMenubar;
